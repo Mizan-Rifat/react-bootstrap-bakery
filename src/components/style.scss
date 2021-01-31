@@ -1,0 +1,23 @@
+.box{
+    border: 1px solid;
+    p{
+        color:yellow
+    }
+}
+
+.card{
+    background: red;
+    animation: slideDown .5s ease;
+}
+
+
+@keyframes slideDown {
+    0% {
+        opacity: 0;
+        transform: translateY(-50px);
+    }
+    100% {
+        opacity: 1;
+        transform: translateY(0);
+    }
+ }
