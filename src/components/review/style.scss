@@ -1,0 +1,17 @@
+
+.slick-dots li button:before{
+    color: unset;
+}
+.slick-dots li.slick-active button:before{
+    color: unset;
+}
+.slick-dots{
+    li{
+        background: #635a55;
+        height: 10px !important;
+        width: 10px !important;   
+    }
+    .slick-active{
+        background: #D1AB7E;
+    }
+}

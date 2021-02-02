@@ -1,0 +1,58 @@
+$tan : #D1AB7E;
+$theme-colors: (
+  'tan':$tan,
+  'dark':#1D1F21,
+  'gray':gray,
+
+//   'info':#997799,
+);
+
+@import "node_modules/bootstrap/scss/bootstrap";
+
+
+body{
+    overflow-x: hidden;
+}
+button:focus {
+    box-shadow: none !important;
+    outline: none !important;
+}
+
+input:focus {
+    -webkit-box-shadow: none !important;
+    box-shadow: none !important;
+    outline: none !important;
+}
+
+button.btn:active{
+    background:unset !important;
+}
+
+.btn{
+    font-size: 1rem !important;
+    padding: .5rem 1.5rem !important;
+    border-radius: 0 !important;
+    color: #fff !important;
+    
+    &:hover{
+        // color:  #D1AB7E !important;
+        background:  none !important;
+    }
+}
+
+
+h2{
+    font-size:2.5rem;
+}
+
+h6{
+    color:$tan;
+    text-transform:uppercase;
+    font-weight: 700;
+    font-size:0.9rem;
+}
+.subtitle{
+    font-weight: 500;
+    max-width: 700px;
+    display: inline-block;
+}
